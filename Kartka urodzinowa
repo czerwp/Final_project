@@ -1,0 +1,12 @@
+Kartka urodzinowa
+
+print("Imię odbiorcy")
+Name=input()
+print("Rok urodzenia")
+Year=int(input())
+x = datetime.datetime.now()
+z=x.year
+y=z-Year
+print("Spersonalizowana wiadomość")
+Message=input()
+print("Imię nadawcy")
